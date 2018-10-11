@@ -1,0 +1,42 @@
+
+boot (grub)
+kernel start (protected mode)
+
+load gdt
+long mode
+
+reload gdt
+enable interrupts
+
+ISR manager
+
+IRQ manager + exception handler
+
+paging + page allocator
+memory manager + kernel memory allocater (malloc calloc realloc free)
+
+[virtual 8086 mode driver (For bios interaction) ]
+[acpi driver]
+[stdlib]
+[cli]
+
+symetric multiprocessing
+
+python vm
+	object system (at least handle: Int, Float, Dict, List, Bool)
+	helper functions (compare arbitrary objects, arithmetic on arbitrary objects)
+	bytecode interpreter
+
+	implementation of hardware interaction lib
+	implementation of os lib
+	implementation of sys lib
+	implementation of multiporcessing lib
+
+rewrite cli in python
+python compiler in python
+
+gpu driver in c
+
+gpu-python interaction lib
+gui lib in python
+gui in python
